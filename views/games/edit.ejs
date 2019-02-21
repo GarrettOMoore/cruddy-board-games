@@ -1,0 +1,14 @@
+<% include ../partials/header.ejs %>
+
+<h1>EDIT</h1>
+
+<form method="POST" action="/games/<%= game.id %>/?_method=PUT">
+    <input class="edit-form" type="text" name="name" placeholder="NAME"value="<%= game.name %>" <br>
+    <input class="edit-form" type="text" name="players" placeholder="PLAYERS"value="<%= game.players %>" <br>
+    <input class="edit-form" type="text" name="description" placeholder="DESCRIPTION" value="<%= game.description %>"></input>
+    <input id="update-button" type="submit" value="UPDATE">
+</form>
+
+
+<% include ../partials/footer.ejs %>
+

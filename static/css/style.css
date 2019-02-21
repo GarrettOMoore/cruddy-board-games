@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 300px;
+    text-align: center;
+    background-color: whitesmoke;
+    color:indigo;
+    font-family: 'Raleway', sans-serif;
+}
+
+form {
+    display: inline-block;
+}
+
+div {
+    padding: 15px;
+}
+
+.edit-form {
+    display: block;
+    height: 100px;
+    width: 600px;
+    font-size: 38px;
+}
+
+h1 {
+    font-size: 66px;
+    text-decoration: underline;
+}
+
+.new-form {
+    display: block;
+    text-align: center;
+    width: 500px;
+    font-size: 38px;
+}
+
+#description {
+    height: 100px;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 52px;  
+}
+#back-link {
+    margin: 50px;
+    font-size: 52px;
+    text-decoration: none;
+    border: 2px solid goldenrod;
+    border-radius: 80%;
+}
+
+p {
+    border-radius: 30%;
+    font-size: 28px;
+    margin: 70px;
+}
